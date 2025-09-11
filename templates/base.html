@@ -9,8 +9,13 @@
 </head>
 <body>
 
-    <nav class="nav01">
+    <nav class="nav01 text-center container-fluid justify-content-between">
         <h2 class="pgflasktitle">Página em Flask</h2>
+        <div class="pgflasktitle">
+            <a class="text-white text-decoration-none" href="{{ url_for('PagInicial') }}">Início</a>
+            <a class="text-white text-decoration-none" href="{{ url_for('atividade') }}">Atividade</a>
+            <a class="text-white text-decoration-none" href="{{ url_for('atividade2') }}">Atividade 2</a>
+        </div>
     </nav>
 
     {% block conteudo %}
@@ -18,6 +23,11 @@
 
 
     {% endblock %}
+
+    <hr>
+
+<a href="" class="text-decoration-none text-center"><h2>Início</h2></a>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-black text-white rounded-start-3">
+                <h2>Uma coluna</h2>
+                <p>isso é uma coluna do Bootstrap</p>
+            </div>
+            <div class="col-4 bg-black text-white">
+                <h2>Uma coluna</h2>
+                <p>isso é uma coluna do Bootstrap</p>
+            </div>
+            <div class="col-4 bg-black text-white rounded-end-3">
+                <h2>Uma coluna</h2>
+                <p>isso é uma coluna do Bootstrap</p>
+            </div>
+        </div>
+    </div>
+    <a class="text-decoration-none" href="{{ url_for('PagInicial') }}"></a>
+{% endblock %}

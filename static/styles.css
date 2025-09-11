@@ -1,8 +1,10 @@
 .nav01{
+    
     background-color: black;
 }
 
 .pgflasktitle{
+    padding: 5px;
     color: white;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
